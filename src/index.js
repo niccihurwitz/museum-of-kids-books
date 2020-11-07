@@ -46,7 +46,7 @@ window.addEventListener('load', () => {
   const application = document.getElementById('app')
 
   render(
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <Route path='/' component={Application} />
     </Router>,
     application
