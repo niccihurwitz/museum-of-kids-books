@@ -1,7 +1,8 @@
 import React, { useEffect, useState, Fragment } from 'react'
-import { getBook } from '../store/selectors'
+import { getBook, getNavBooks } from '../store/selectors'
 import { store } from '../store'
 import Loader from './loader'
+import Nav from './nav'
 import { Link } from 'react-router-dom'
 
 export default function BookPage (props) {
@@ -33,12 +34,12 @@ export default function BookPage (props) {
   
   const bookLoaded = book !== null
   let color
-  if (bookLoaded ) color = {color: book.color}
+  if (bookLoaded) color = {color: book.color}
   return (
     <div className='page'>
       <Loader loaded={loaded} />
     {bookLoaded &&
-      <div className='w-100'>
+      <div className='w-100 page'>
         <div className='w-50 flex flex-column items-center justify-center book-header center pv6 ph0 ph4-l'>
           {/* <img className='mw5' src={require(`../books${book.permalink}/icon.png`).default} /> */}
           <div className='icon h-100' style={{backgroundImage: `url(${require(`../books${book.permalink}/icon.png`).default})`}} />
@@ -78,7 +79,9 @@ export default function BookPage (props) {
             
           })}
         </div>
+        <Nav currentBook={book}/>
       </div>
+      
       }
       </div>
     

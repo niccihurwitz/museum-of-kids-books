@@ -17,14 +17,14 @@ export default function HomePage (props) {
   },[])
 
   return (
-    <div>
-      <div className='w-100 ma3 '>
-          <div className='title mw6 center'>
-            <Link to={'/'} className='link p-black'>
-              <h2 className='mt5 mb3 tc'>The Immersive Museum of Children's Books</h2>
-            </Link>
-          </div>
+    <div className='page'>
+      <div className='w-100 ma3 page'>
+        <div className='title mw6 center'>
+          <Link to={'/'} className='link p-black'>
+            <h2 className='mt5 mb3 tc'>The Immersive Museum of Children's Books</h2>
+          </Link>
         </div>
+      </div>
     <div className='page books-container flex mh3'>
         {Array.from(books).map((pro, key) => {
           const book = pro[1]
@@ -39,6 +39,7 @@ export default function HomePage (props) {
           )
         })}
     </div>
+
     </div>
   )
 }
