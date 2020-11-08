@@ -28,16 +28,16 @@ if (loaded) {
     <div className='flex mh4 mv3'>
       {loaded && 
         <div className='w-100 flex flex-row justify-between'>
-          <Link className='mw5 pointer link p-black pointer items-center flex' to={`/books${prev.permalink}`} alt={ prev.title } title={ prev.title } >
+          <Link className='pointer link p-black pointer items-center flex' to={`/books${prev.permalink}`} alt={ prev.title } title={ prev.title } >
             <img className='nav-icon' src={require(`../books${props.currentBook.permalink}/prev.png`).default}/>
-            <div className='flex items-center w-50'>
-              <h4 className='mh4 center tc' style={{color: prev.color}}>{prev.title}</h4>
+            <div className='flex items-center mw4'>
+              <h4 className='mh4 center tl pl3' style={{color: prev.color}}>{prev.title}</h4>
             </div> 
       </Link>
 
-      <Link className='mw5 pointer link p-black pointer items-center flex' to={`/books${next.permalink}`} alt={ next.title } title={ next.title } >
-        <div className='flex items-center w-50'>
-          <h4 className='mh4 center tc' style={{color: next.color}}>{next.title}</h4>
+      <Link className='pointer link p-black pointer items-center flex' to={`/books${next.permalink}`} alt={ next.title } title={ next.title } >
+        <div className='flex items-center mw4'>
+          <h4 className='mh4 center tr pr3' style={{color: next.color}}>{next.title}</h4>
         </div> 
         <img className='nav-icon' src={require(`../books${props.currentBook.permalink}/next.png`).default}/>
         

@@ -1,0 +1,72 @@
+{
+  "title": "Crow Boy",
+  "description": "Step inside the mind of Crow Boy as you take a journey through bullying and isolation, to find friendship and understanding. ",
+  "author": ["Taro Yashima", "https://www.youtube.com/watch?v=egrNdt3Hcuw"],
+  "interactive": ["Brandon Siow", "https://www.behance.net/brandonsiow"],
+  "color": "#696899",
+  "permalink": "/crow-boy",
+  "header": "header.jpg",
+  "content": [
+    {
+      "type": "image",
+      "format": "f",
+      "file": "1.jpg",
+      "caption": "User enters at their allocated time based on the timer outside of the entrance."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "2.jpg",
+      "caption": "Once in the space, they see the first set of objects and also notices sounds of bullying playing in the back."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "3.jpg",
+      "caption": "They approach the objects. The sound cuts out as soon as they are next to the objects."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "4.jpg",
+      "caption": "This is because the sensory motion technology detected their presence. It soon projects an excerpt next to the objects, telling the user the harsh reality behind the objects."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "5.jpg",
+      "caption": "Once done, they progress to the next set of objects."
+    },
+    {
+      "type": "image",
+      "format": "f",
+      "file": "6.jpg",
+      "caption": "Vice versa, sound is muted and a projection is seen as the user interacts with the objects."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "7.jpg",
+      "caption": "After, they turn the corner and are met with bugs painted in the ground which act like step stones. They also notice an opening at the end."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "8.jpg",
+      "caption": "The user crawls into the opening, realising they are in a tunnel."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "9.jpg",
+      "caption": "Once out of the tunnel, they are in a narrow corridor filled with graffiti that writes insults on the walls. They see an opening on the end."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "10.jpg",
+      "caption": "Proceeding into the opening, they enter the final section. Once done, they make their way out of the exit."
+    }
+  ]
+}
+

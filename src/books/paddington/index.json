@@ -1,0 +1,83 @@
+{
+  "title": "Paddington Bear",
+  "description": "Enter the world of Paddington Bear as you are taken on a winding journey in search of love and family.",
+  "author": ["Michael Bond", "https://www.youtube.com/watch?v=xaal3PCBO8w"],
+  "interactive": ["Zoe Wang", "https://www.behance.net/ziyuwang"],
+  "color": "#FD5B2B",
+  "permalink": "/paddington",
+  "header": "header.jpg",
+  "content": [
+    {
+      "type": "image",
+      "format": "h",
+      "file": "1.jpg",
+      "caption": "This is an immersive children's interactive museum. When people pass by the museum, they may be attracted by this huge tree staircase."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "2.jpg",
+      "caption": "They can choose though the slide to the ground."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "3.jpg",
+      "caption": "When they reach the ground, according to their walking path, ripples will appear on the ground."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "4.jpg",
+      "caption": "Visitors can also choose cross the rope bridge to another tree."
+    },
+    {
+      "type": "image",
+      "format": "f",
+      "file": "5.jpg",
+      "caption": "When people reach another tree. They will be attracted by the flashing tree hole, and they can hear the sound from that holes. When they put their ears close to the tree hole, they can clearly hear some audio like birds chirping, water flowing, wind rustling through leaves… even the bear roar!"
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "6.jpg",
+      "caption": "Then, they can enter the circular-screen movie room by boat and experience the scene of Paddington sneaking into London."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "7.jpg",
+      "caption": "Then they entered the third scene — the warm Paddington train station. Visitors may be attracted by the flashing phone booth."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "8.jpg",
+      "caption": "The user crawls into the opening, realising they are in a tunnel."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "9.jpg",
+      "caption": "When visitors walk into the phone box, they can listen to stereo surround sound and enjoy the immersion of the picture and sound combination. The first phone booth will play, Paddington's confused inner conversation. For example, 'This is London. there are people everywhere. But where should I go?'."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "10.jpg",
+      "caption": "The second phone box will play, sad inner conversation on Paddington. For example, 'Am I staying the train station tonight? Where should I go?'."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "10.jpg",
+      "caption": "The third phone box will play, Paddington feels happy in his inner conversation. For example, 'I have a home in London. I can't believe that...I am really looking forward to my furture life.'"
+    },
+    {
+      "type": "video-yt",
+      "file": "BCE2sCOELwc",
+      "caption": "A walk through of the whole experience."
+    }
+  ]
+}
+

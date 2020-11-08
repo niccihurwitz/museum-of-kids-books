@@ -17,15 +17,15 @@ export default function HomePage (props) {
   },[])
 
   return (
-    <div className='page'>
-      <div className='w-100 ma3 page'>
+    <div className='page ma3 mb6 '>
+      <div className='w-100 page'>
         <div className='title mw6 center'>
           <Link to={'/'} className='link p-black'>
             <h2 className='mt5 mb3 tc'>The Immersive Museum of Children's Books</h2>
           </Link>
         </div>
       </div>
-    <div className='page books-container flex mh3 w-100 flex-wrap'>
+    <div className='books-container flex w-100 flex-wrap'>
         {Array.from(books).map((pro, key) => {
           const book = pro[1]
 
@@ -38,6 +38,12 @@ export default function HomePage (props) {
             </Link>
           )
         })}
+        <div className='w-25 p-black f5 pt4 pl4'>
+          <p>'Design an interactive experience around your favourite children's book.' — This was the brief for Visual Communication students at the University of Technology, Sydney.</p>
+          <p>With storytelling at the core, students developed skills in conceptual development, user experience and interface design. In 6 weeks they created an interactive physical-digital museum experience. Now the projects live here for all to enjoy :-)</p>
+          <p>A big thanks to course coordinator, Nicky Hardcastle!</p>
+          <p>Experimental Interactive Design course & website by Nicci Hurwitz.</p>
+        </div>
     </div>
 
     </div>

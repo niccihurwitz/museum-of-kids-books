@@ -8,6 +8,10 @@ import bearHasAStoryToTell from './bear-has-a-story-to-tell/index.json'
 import rulesOfSummer from './rules-of-summer/index.json'
 import lionWitchWardrobe from './lion-witch-wardrobe/index.json'
 import redTree from './the-red-tree/index.json'
+import coco from './coco/index.json'
+import passItOn from './pass-it-on/index.json'
+import crowBoy from './crow-boy/index.json'
+import paddington from './paddington/index.json'
 
-const books = [oswaldBearsAdventure, theLorax, goingOnABearHunt, charlieChocolateFactory, iWantMyHatBack, timeForABath, bearHasAStoryToTell, rulesOfSummer, lionWitchWardrobe, redTree]
+const books = [oswaldBearsAdventure, theLorax, goingOnABearHunt, charlieChocolateFactory, iWantMyHatBack, timeForABath, bearHasAStoryToTell, rulesOfSummer, lionWitchWardrobe, redTree, coco, passItOn, crowBoy, paddington]
 export default books

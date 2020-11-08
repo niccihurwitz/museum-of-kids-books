@@ -1,0 +1,72 @@
+{
+  "title": "Coco",
+  "description": "A musical game to teach kids about the importance of family, by keeping Coco's memory alive.",
+  "author": ["Diana López", "https://www.youtube.com/watch?v=5T_KlJEggbY"],
+  "interactive": ["Xinyi Zhao", ""],
+  "color": "#AB0F62",
+  "permalink": "/coco",
+  "header": "header.png",
+  "content": [
+    {
+      "type": "image",
+      "format": "f",
+      "file": "1.png",
+      "caption": "Children walk with their parents through the corridor watch the view of the festival."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "2.png",
+      "caption": "Users cross the flower bridge to see the light show."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "3.png",
+      "caption": "Stand on the button to start."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "4.png",
+      "caption": "Mama Coco explains the story."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "5.png",
+      "caption": "Megial tells users the rules of game."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "6.png",
+      "caption": "Users get instructions."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "7.png",
+      "caption": "Users choose the musical instrument to play."
+    },
+    {
+      "type": "image",
+      "format": "f",
+      "file": "8.png",
+      "caption": "Follow the music to play the game."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "9.png",
+      "caption": "Keep playing to keep the memories alive."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "10.png",
+      "caption": "Follow the music to finish the game and win. "
+    }
+  ]
+}
+

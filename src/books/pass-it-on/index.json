@@ -1,0 +1,41 @@
+{
+  "title": "Pass It On",
+  "description": "A chain reaction between users to spread pure joy!",
+  "author": ["Sophy Henn", "https://www.youtube.com/watch?v=n2W3kbQ28IE"],
+  "interactive": ["Jocelyn Francis", "https://www.instagram.com/designbyjoce/"],
+  "color": "#DAC626",
+  "permalink": "/pass-it-on",
+  "header": "header.jpg",
+  "content": [
+    {
+      "type": "image",
+      "format": "h",
+      "file": "1.jpg",
+      "caption": "The user walks into the room, sees a room full of balloons and feels the joyful atmosphere."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "2.jpg",
+      "caption": "Users stand on the graphic to release a balloon."
+    },
+    {
+      "type": "video-yt",
+      "file": "27w3-erf6zU",
+      "caption": "The users run through the space, releasing a trail of balloons with delight. "
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "3.jpg",
+      "caption": "The user stands on the graphic and releases the balloons as a chain reaction. "
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "4.jpg",
+      "caption": "Users moving back and forth on the same circle to release more balloons!"
+    }
+  ]
+}
+

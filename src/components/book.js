@@ -47,12 +47,12 @@ export default function BookPage (props) {
           <span className='f3-l lh-title normal center tc mt3' >{book.description}</span>
         </div>
         <div className='w-100 flex flex-column justify-center items-center mt3 ph0 ph4-l'>
-          <div className='w-100 flex justify-between f5'>
+          <div className='w-100 flex justify-between f5 ph4 ph0-l'>
             <div>
-              <span>Book by <a className='link' style={color} href={book.author[1]}>{book.author[0]}</a></span>
+              <span>Book by <a className='link' target='_blank' style={color} href={book.author[1]}>{book.author[0]}</a></span>
             </div>
             <div>
-              <span>Interactive experience by <a className='link' style={color} href={book.interactive[1]}>{book.interactive[0]}</a></span>
+              <span>Interactive experience by <a className='link' target='_blank' style={color} href={book.interactive[1]}>{book.interactive[0]}</a></span>
             </div>
           </div>
           <img className='w-100 mt2' onLoad={onLoad} src={require(`../books${book.permalink}/${book.header}`).default} />
@@ -79,7 +79,7 @@ export default function BookPage (props) {
                     onLoad={onLoad}
                     ></iframe>
                   </div>
-                  {item.caption && <div className='mt3 f5 lh-copy'>{item.caption}</div>}
+                  {item.caption && <div className='mt3 f5 lh-copy mh4 mh0-l'>{item.caption}</div>}
                 </div>
               )
             } else {
@@ -88,7 +88,7 @@ export default function BookPage (props) {
               return (
                 <div className={`mv4 justify-between pl0 pl4-l ${width}`} key={key}>
                   <img className='w-100' onLoad={onLoad} src={require(`../books${book.permalink}/${item.file}`).default} />
-                  {item.caption && <div className='mt3 f5 lh-copy'>{item.caption}</div>}
+                  {item.caption && <div className='mt3 mh4 mh0-l f5 lh-copy'>{item.caption}</div>}
                 </div>
               )
             }
