@@ -42,7 +42,7 @@ export default function HomePage (props) {
           <p>'Design an interactive experience around your favourite children's book.' — This was the brief for Visual Communication students at the University of Technology, Sydney.</p>
           <p>With storytelling at the core, students developed skills in conceptual development, user experience and interface design. In 6 weeks they created an interactive physical-digital museum experience. Now the projects live here for all to enjoy :-)</p>
           <p>A big thanks to course coordinator, Nicky Hardcastle!</p>
-          <p>Experimental Interactive Design course & website by Nicci Hurwitz.</p>
+          <p>Experimental Interactive Design course & website by <a href='https://niccihurwitz.com/' target='_blank' className='link' style={{color: '#FD8197'}}>Nicci Hurwitz.</a></p>
         </div>
     </div>
 
