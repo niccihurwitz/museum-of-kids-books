@@ -48,10 +48,10 @@ export default function BookPage (props) {
         </div>
         <div className='w-100 flex flex-column justify-center items-center mt3 ph0 ph4-l'>
           <div className='w-100 flex justify-between f5 ph4 ph0-l'>
-            <div>
+            <div className='w-50'>
               <span>Book by <a className='link' target='_blank' style={color} href={book.author[1]}>{book.author[0]}</a></span>
             </div>
-            <div>
+            <div className='w-50 tr'>
               <span>Interactive experience by <a className='link' target='_blank' style={color} href={book.interactive[1]}>{book.interactive[0]}</a></span>
             </div>
           </div>

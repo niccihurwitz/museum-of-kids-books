@@ -30,7 +30,7 @@ export default function HomePage (props) {
           const book = pro[1]
 
           return(
-            <Link className='w-25 pointer link p-black pointer book-icon' to={`books${book.permalink}`} key={key} alt={ book.title } title={ book.title } >
+            <Link className='w-50 w-25-l pointer link p-black pointer book-icon' to={`books${book.permalink}`} key={key} alt={ book.title } title={ book.title } >
               <img src={require(`../books${book.permalink}/home-icon.png`).default}/>
               <div className='absolute icon-title flex items-center'>
                 <h4 className='mh4 center tc'>{book.title}</h4>
@@ -38,7 +38,7 @@ export default function HomePage (props) {
             </Link>
           )
         })}
-        <div className='w-25 p-black f5 pt4 pl4'>
+        <div className='w-100 w-25-l p-black f5 pt4 pl4-l mw6'>
           <p>'Design an interactive experience around your favourite children's book.' — This was the brief for Visual Communication students at the University of Technology, Sydney.</p>
           <p>With storytelling at the core, students developed skills in conceptual development, user experience and interface design. In 6 weeks they created an interactive physical-digital museum experience. Now the projects live here for all to enjoy :-)</p>
           <p>A big thanks to course coordinator, Nicky Hardcastle!</p>
