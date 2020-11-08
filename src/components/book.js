@@ -66,6 +66,22 @@ export default function BookPage (props) {
                   <video controls className='w-100 mv4' src={require(`../books${book.permalink}/${item.file}`).default}/>
                 </div>
               )
+            } else if (item.type === 'video-yt'){
+              return (
+                <div className='w-100 ml0 ml4-l mv4' key={key}>
+                  <div className='video-container'>
+                    <iframe
+                    className='video'
+                    src={`https://www.youtube.com/embed/${item.file}`}
+                    frameBorder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
+                    allowFullScreen
+                    onLoad={onLoad}
+                    ></iframe>
+                  </div>
+                  {item.caption && <div className='mt3 f5 lh-copy'>{item.caption}</div>}
+                </div>
+              )
             } else {
               let width = 'w-100'
               if (item.format === 'h') width = 'w-100 w-50-l'

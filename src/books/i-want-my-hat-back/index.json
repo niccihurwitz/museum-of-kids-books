@@ -1,0 +1,89 @@
+{
+  "title": "I Want My Hat Back",
+  "description": "A detective game that builds in intensity as users get to the bottom of identifying the thief!",
+  "author": ["Jon Klasson", "https://www.youtube.com/watch?v=xaal3PCBO8w"],
+  "interactive": ["April Tran", "https://apriltran.cargo.site/"],
+  "color": "#E21C21",
+  "permalink": "/i-want-my-hat-back",
+  "header": "header.jpg",
+  "content": [
+    {
+      "type": "image",
+      "format": "f",
+      "file": "1.jpg",
+      "caption": "Users enter the first area and interact with the display: the living environment of the characters."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "2.jpg",
+      "caption": "Each character is shown on each wall, by approaching it, the interaction will start and users can collect the clues by imitating the animal movement to make the animal appears and advocate for their innocence."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "3.jpg",
+      "caption": "The Frog: Walk fast towards the wall along the graphic. The frog is on a lily pad."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "4.jpg",
+      "caption": "The Turtle: Walking slow towards the wall along the graphic on the floor, the turtle is on a rock."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "5.jpg",
+      "caption": "The Snake: Walking small steps along the graphic, the snake is on the tree."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "6.jpg",
+      "caption": "The Rabbit: Jumping along the graphic, the rabbit stays inside a bush with a pointy red object."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "7.jpg",
+      "caption": "Users enter the interactive floor in the last section and will be guided by the bear on the display."
+    },
+    {
+      "type": "image",
+      "format": "f",
+      "file": "8.jpg",
+      "caption": "Running, walking, steeping around to break the crime scene's cover underneath. The scene is the locations of all the suspects: a rock, a lily pad, a bush and a tree."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "9.jpg",
+      "caption": "Each user will choose one object that represents the thief and perform an equivalent movement of the animal they do earlier to confirm the thief. Correct: Perform jumping movement on the bush."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "10.jpg",
+      "caption": "The thief is identified. QR code is shown for social media sharing."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "11.jpg",
+      "caption": "A filter is provided through the QR code."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "12.jpg",
+      "caption": "Winner wins a hat from the museum and giving feedback at the exit."
+    },
+    {
+      "type": "video-yt",
+      "file": "A8AjPZ5piPM",
+      "caption": "A walk through of the whole experience."
+    }
+  ]
+}
+

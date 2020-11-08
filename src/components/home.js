@@ -25,7 +25,7 @@ export default function HomePage (props) {
           </Link>
         </div>
       </div>
-    <div className='page books-container flex mh3'>
+    <div className='page books-container flex mh3 w-100 flex-wrap'>
         {Array.from(books).map((pro, key) => {
           const book = pro[1]
 

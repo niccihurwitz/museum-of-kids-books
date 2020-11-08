@@ -1,63 +1,59 @@
 {
   "title": "We're Going on a Bear Hunt",
-  "description": "The darkness isn't as scary as we may believe. Discover the beauty of the night in this immersive journey through the Australian bush.",
-  "hero": "2.jpg",
-  "author": ["Diana Noonan", "https://drive.google.com/file/d/19sY6FTqCEe3FUe81zGV1wingLJMvmdSa/view"],
-  "interactive": ["Sage Hennigar", "https://www.instagram.com/_colourbloc/"],
+  "description": "An adrenaline-pumping racetrack, augmented with sensory digital elements.",
+  "author": ["Michael Rosen", "https://www.youtube.com/watch?v=0gyI6ykDwds"],
+  "interactive": ["Isabelle Price", "https://www.behance.net/isabelleprice"],
   "permalink": "/going-on-a-bear-hunt",
-  "header": "header.jpg",
+  "color": "#40B39C",
+  "header": "header.png",
   "content": [
     {
-      "type": "video",
-      "file": "video.mp4"
+      "type": "image",
+      "format": "h",
+      "file": "1.png",
+      "caption": "Users enter the experience through “exiting” the main house."
     },
     {
       "type": "image",
       "format": "h",
-      "file": "1.jpg",
-      "caption": "First room seen upon entering the room. The sound of the Australian bush at night can be heard and the stars twinkle overhead illuminating the room."
-    },
-    {
-      "type": "image",
-      "format": "h",
-      "file": "2.jpg",
-      "caption": "As the user walks forward following the footsteps on the ground the projections will trigger, showing a fish splashing on the wall. A sound of rippling water can be heard coming from the wall and fish scales can be touched allowing users to get up close and personal to the animal."
-    },
-    {
-      "type": "image",
-      "format": "h",
-      "file": "3.jpg",
-      "caption": "The next set of footprints light up as the projection finishes and goes dark. The user is now following the glowing footprints to the next room."
-    },
-    {
-      "type": "image",
-      "format": "h",
-      "file": "4.jpg",
-      "caption": "While following the footprints the user walks besides an interactive bush landscape, which has surprise interactions built in. Here a child is touching the fireflies that are floating around. They scatter and fly away from them."
+      "file": "2.png",
+      "caption": "The racetrack is before them and they must start the race."
     },
     {
       "type": "image",
       "format": "f",
-      "file": "5.jpg",
-      "caption": "The user reaches the next scene where an owl appears, it starts hooting and flapping its wings. It is glows brightly and has many enjoyable colours and details for children to look at."
+      "file": "3.png",
+      "caption": "They run down along the track until they race their first challenge. Here they race through the river crossing challenge being very careful to only jump on fully formed lily pads as to not fall in the river."
     },
     {
       "type": "image",
       "format": "h",
-      "file": "6.jpg",
-      "caption": "Because they were intrigued the user goes up to the wall and starts interacting with the textures there. They can feel the owl feathers."
+      "file": "4.png",
+      "caption": "Racers move around to the snowstorm challenge. Here the racer must place 150 snowflakes to make the LIDAR curtain turn off so they can run through."
     },
     {
       "type": "image",
       "format": "h",
-      "file": "7.jpg",
-      "caption": "Users enter the interactive floor in the last section and will be guided by the bear on the display."
+      "file": "5.png",
+      "caption": "Racers move towards and head into the bear cave tunnel maze, here they will need to find there was through a dimly lit series of tunnels whilst being followed by the bear growling audio."
     },
     {
       "type": "image",
       "format": "f",
-      "file": "8.jpg",
-      "caption": "The user follows the footsteps to the final room, they find Oswald Bear sitting on the bench safe and sound as the sun rises above him creating a sense of closure to the night ending. Morning birds can be heard, and the user can touch the bear and rest on the bench if desired."
+      "file": "6.png",
+      "caption": "Here we see the racers enter the final leg of the race where they must compete in a foot race to get back to the safety of the house in doing so they are chased once again by the growling bear audio and some bear claw projections on the track behind them."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "7.png",
+      "caption": "The race is now finished as the racer cross the finish line and they now exit through “entering” back into the safety of the house knowing they have successfully escaped the bear."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "8.png",
+      "caption": "All the while along the parents have been able to view their children interacting with the space from the safety of the external viewing area which is in keeping of the theme and are styled to look like the internal features of a house."
     }
   ]
 }

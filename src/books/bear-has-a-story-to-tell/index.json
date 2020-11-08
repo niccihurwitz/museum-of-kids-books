@@ -1,0 +1,72 @@
+{
+  "title": "Bear Has a Story to Tell",
+  "description": "A VR experience about friendship, where users find clues to uncover the story together.",
+  "author": ["Philip C. Stead", "https://www.youtube.com/watch?v=imkLeTETGfU"],
+  "interactive": ["Chen Zhang", "https://www.behance.net/chenzheng4"],
+  "color": "#DF670D",
+  "permalink": "/bear-has-a-story-to-tell",
+  "header": "header.jpg",
+  "content": [
+    {
+      "type": "image",
+      "format": "h",
+      "file": "1.jpg",
+      "caption": "Users enter the room, wearing the VR devices showing the natural environment of the story."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "2.jpg",
+      "caption": "Here the user is introduced to the backstory. "
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "3.jpg",
+      "caption": "Instructions telling users to find clues to locate the bear."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "4.jpg",
+      "caption": "Choose your role, single player or multiple user."
+    },
+    {
+      "type": "image",
+      "format": "f",
+      "file": "5.jpg",
+      "caption": "The users see an immersive natural environment when they wear the VR headset."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "6.jpg",
+      "caption": "Users seek out the clues which moves them to the next scene."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "7.jpg",
+      "caption": "Each natural environment is based the seasons from the book. Users get different clues each season."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "8.jpg",
+      "caption": "In Autumn when you find the clue, you may progress to the next season.Oversize real object for user to chop the tress."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "9.jpg",
+      "caption": "Users collect all the clues, following them to find the bear."
+    },
+    {
+      "type": "image",
+      "format": "f",
+      "file": "10.jpg",
+      "caption": "The users find the bear, who can finally share his story."
+    }
+  ]
+}
+

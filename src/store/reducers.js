@@ -15,7 +15,7 @@ const sortedbooks = new Map([...booksMap.entries()].sort((a,b) => {
 console.log(sortedbooks)
 
 const initialState = {
-  books: sortedbooks,
+  books: booksMap,
   currentBook: null,
   currentIndex : 0
 }

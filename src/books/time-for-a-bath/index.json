@@ -1,0 +1,78 @@
+{
+  "title": "Time For a Bath",
+  "description": "An interactive environment that allows children to move, play and get dirty, as any mess can be cleaned up with a bath before bed.",
+  "author": ["Phillis Gershator", "https://www.youtube.com/watch?v=kgOjGxdxW6E"],
+  "interactive": ["Suet Man Tang", "https://www.behance.net/muiditang"],
+  "color": "#009CCF",
+  "permalink": "/time-for-a-bath",
+  "header": "header.png",
+  "content": [
+    {
+      "type": "image",
+      "format": "h",
+      "file": "1.png",
+      "caption": "Fantland, Fantasy Land, is a village in a forest. User will take on the role of villagers and experience various daily activities in Fantland."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "2.png",
+      "caption": "A circular room in two level, developed into three parts with uneven ground that slope upward."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "3.png",
+      "caption": "Overall floor plan of forest area, which using high-definition projectors, surround sound and network motion tracking sensors."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "4.png",
+      "caption": "The first interaction when user go in, which also hint them that they can do whatever they want in the room."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "5.png",
+      "caption": "User can play around in the grassland area, river (water area) or grass."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "6.png",
+      "caption": "Trees are projected on the wall, which will have a different corresponding reactions when user touch different positions."
+    },
+    {
+      "type": "image",
+      "format": "f",
+      "file": "7.png",
+      "caption": "User can play around in the farmland area, also with real object."
+    },
+    {
+      "type": "image",
+      "format": "f",
+      "file": "8.png",
+      "caption": "Oversize real object for user to chop the tress."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "9.png",
+      "caption": "Oversized real objects for user to play with everywhere in the forest."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "10.png",
+      "caption": "Time for a bath. Bathroom area with the fragrance of body wash and squirting bubbles."
+    },
+    {
+      "type": "image",
+      "format": "f",
+      "file": "11.png",
+      "caption": "Two choices for user to go down to the bathtub, slide or stairs."
+    }
+  ]
+}
+

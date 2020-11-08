@@ -1,0 +1,54 @@
+{
+  "title": "The Red Tree",
+  "description": "Uncomfortable emotions are manifested as a sensory playground for users to explore, leading to a sense of hope and renewal.",
+  "author": ["Shaun Tan", "https://www.youtube.com/watch?v=Gy4XEGAtUfA"],
+  "interactive": ["Won Jean Kim", "https://www.behance.net/elizabethkim98"],
+  "color": "#A07504",
+  "permalink": "/the-red-tree",
+  "header": "header.png",
+  "content": [
+    {
+      "type": "image",
+      "format": "f",
+      "file": "1.png",
+      "caption": "Allocated themes and their imagery are drawn from the book, inspiring 7 rooms that individuals are free to explore and play. Upon entering the first room, the user steps on dead leaves (crunch!) and can interact with the protagonist's bedroom items that are stuck in the wall. At the end of the hallway, the user can read an excerpt from the book; participating in an immersive storytelling experience."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "2.png",
+      "caption": "When turning right, the user enters the second room. Here, users touch fabric buildings and windows; some are able to be climbed over, have tunnels through them and some blocks can be moved around. A chaotic arrangement encourages the user to be lost within these tactile surfaces, that range from wool, felt, canvas, faux fur and cotton."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "3.png",
+      "caption": "Upon leaving the second room, the user is confronted by a looming giant fish with a dank smell. The user is able to touch it's cold, slimy scales (clay with luminscent paint + glaze) and crawl underneath the fish to be immersed in darkness. Upon prototype testing, a 10yo child was able to climb into the fish's mouth while posing for a photo."
+    },
+    {
+      "type": "image",
+      "format": "f",
+      "file": "4.png",
+      "caption": "As the user turns around, they enter the fourth room: mundane. Users can boulder on a giant snail and slide down. The bottom of the floor is covered by a soft-fall crash mat to ensure safety and fun jumping times."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "5.png",
+      "caption": "In turning left, users go through a dark heavy curtain to enter the fifth room: overwhelm. They see a projection of crashing waves and floating buildings on the circular all-encompassing space and hear the turbulent waves. Users are encouraged to immerse and relax themselves on top of the bean bags in the middle, letting the sound wash through them."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "6.png",
+      "caption": "Upon leaving the overwhelm room, users enter the hallway to the sixth room. This room marks a transition phase before encountering the last room of hope. Carrying this idea, the room is dark and the end of the hallway is illuminated by the red glow of the final room. The user walks on top of blankets that resemble a poofy bed and starts to hear melodic and peaceful music."
+    },
+    {
+      "type": "image",
+      "format": "f",
+      "file": "7.png",
+      "caption": "Upon reaching the end of the hallway, users encounter a large red tree that protrudes amongst a rocky surface from the ground. The floor beneath the user lights up, and upon going closer to the tree, the light shoots out to the top of the tree via the trunk. People sit underneath the tree on the elevated 'rocks'. Using Lidar proximity sensors, when 3 people get close, the tree is enveloped in a bright white light and shimmers, letting the white butterflies fly down to the ground. The projection of the 3D tree is accompanied by peaceful instrumentals, inspiring hope."
+    }
+  ]
+}
+

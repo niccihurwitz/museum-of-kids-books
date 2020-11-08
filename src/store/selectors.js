@@ -8,19 +8,23 @@ export const getNavBooks = (s, bookId) => {
   // console.log(s.appReducer.books)
   // const keys = s.appReducer.books.keys()
   // console.log(keys.next().value)
-  console.log(books.size)
+  console.log(curBook.index)
   const next = curBook.index < books.size - 1 ? curBook.index + 1 : 0
-  const prev = curBook.index > 0 ? curBook.index - 1 : books.size -1
-  const navBooks = []
+  const prev = curBook.index > 0 ? curBook.index - 1 : books.size - 1
+  const navBooks = {
+    prev: null,
+    next: null
+  }
+
   Array.from(books).map((pro, key, el) => {
     const book = pro[1]
     // console.log(el[key+1])
 
     if (key === prev) {
-      navBooks.push(el[key])
+      navBooks.prev = el[key]
     }
     if (key === next) {
-      navBooks.push(el[key])
+      navBooks.next = el[key]
     }
   })
   return navBooks

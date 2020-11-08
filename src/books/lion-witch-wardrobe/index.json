@@ -1,0 +1,72 @@
+{
+  "title": "The Lion, the Witch and the Wardrobe",
+  "description": "A sensory playground that immerses users in a heaven-like world, emulating a real sense of magic as an escape from our own world.",
+  "author": ["C.S. Lewis", "https://www.youtube.com/watch?v=lc8387H7oYc"],
+  "interactive": ["Eleanor Kerwick", ""],
+  "color": "#1D2CF3",
+  "permalink": "/lion-witch-wardrobe",
+  "header": "header.png",
+  "content": [
+    {
+      "type": "image",
+      "format": "f",
+      "file": "1.png",
+      "caption": "The User is drawn towards the wardrobe by music."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "2.png",
+      "caption": "The user enters the wardrobe."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "3.png",
+      "caption": "The hall is pitch black."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "4.png",
+      "caption": "The user walks through hall, brushing past fur coats and clothing."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "5.png",
+      "caption": "The user continues to walk through hall and can see an opening."
+    },
+    {
+      "type": "image",
+      "format": "f",
+      "file": "6.png",
+      "caption": "The hall opens up into a playground."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "7.png",
+      "caption": "As user walks, different coloured shapes appear under their feet."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "8.png",
+      "caption": "The user crawls inside cave structures."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "9.png",
+      "caption": "Caves reveal dimly lit room and string lights attached to ceiling."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "10.png",
+      "caption": "Caves reveal dimly lit room and string lights attached to ceiling."
+    }
+  ]
+}
+

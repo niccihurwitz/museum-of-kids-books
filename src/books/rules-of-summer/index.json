@@ -1,0 +1,60 @@
+{
+  "title": "Rules of Summer",
+  "description": "A multi-user VR game where you catch creatures together, to learn about the importance of friendship.",
+  "author": ["Sean Tan", "https://www.youtube.com/watch?v=btLgP83sFvs"],
+  "interactive": ["Qian Yu", "https://www.behance.net/qianyu7"],
+  "color": "#31A979",
+  "permalink": "/rules-of-summer",
+  "header": "header.jpg",
+  "content": [
+    {
+      "type": "image",
+      "format": "h",
+      "file": "1.jpg",
+      "caption": "This is the entrance of the “Summer Memories” room."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "2.jpg",
+      "caption": "User enter the room. This is the first perspective from the entrance. User can see there are two parts in the room — the interactive wall part and VR game area."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "3.jpg",
+      "caption": "When the user walks through the interactive wall, the fireflies will glow and appear to fly out for a short stay."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "4.jpg",
+      "caption": "When the user touches the interactive wall, the surrounding plants will slowly glow and appear for a while."
+    },
+    {
+      "type": "image",
+      "format": "f",
+      "file": "6.jpg",
+      "caption": "The plants slowly glow and show. This is when all the insects and plants on the interactive wall appear."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "7.jpg",
+      "caption": "This is the first interface for the user to put on the VR device and enter the VR game."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "8.jpg",
+      "caption": "The game's prompt language allows users to clearly understand the content of the game."
+    },
+    {
+      "type": "image",
+      "format": "f",
+      "file": "9.jpg",
+      "caption": "This is the perspective of looking at friends in the game."
+    }
+  ]
+}
+

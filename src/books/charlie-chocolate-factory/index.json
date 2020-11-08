@@ -1,63 +1,70 @@
 {
   "title": "Charlie & the Chocolate Factory",
-  "description": "The darkness isn't as scary as we may believe. Discover the beauty of the night in this immersive journey through the Australian bush.",
-  "hero": "2.jpg",
-  "author": ["Diana Noonan", "https://drive.google.com/file/d/19sY6FTqCEe3FUe81zGV1wingLJMvmdSa/view"],
-  "interactive": ["Sage Hennigar", "https://www.instagram.com/_colourbloc/"],
+  "description": "A journey through Willy Wonka's Inventing Room, where users can design and print their very own edible creations.",
+  "author": ["Roald Dahl", "https://www.youtube.com/watch?v=xaal3PCBO8w"],
+  "interactive": ["Alexandra Janes", "https://www.behance.net/alexandrajanes"],
+  "color": "#8E3AAB",
   "permalink": "/charlie-chocolate-factory",
-  "header": "header.jpg",
+  "header": "header.png",
   "content": [
     {
-      "type": "video",
-      "file": "video.mp4"
+      "type": "image",
+      "format": "h",
+      "file": "1.png",
+      "caption": "The user enters through the interactive corridor, which is an ever-changing and constantly evolving space. The floors and walls project captivating visual effects which respond to the users movements."
     },
     {
       "type": "image",
       "format": "h",
-      "file": "1.jpg",
-      "caption": "First room seen upon entering the room. The sound of the Australian bush at night can be heard and the stars twinkle overhead illuminating the room."
+      "file": "2.png",
+      "caption": "These visual effects produced by projection alter as more users enter the space. The corridor draws on elements from the story, such as the chocolate river, as a metaphorical transportation device, leading to innovation."
     },
     {
       "type": "image",
       "format": "h",
-      "file": "2.jpg",
-      "caption": "As the user walks forward following the footsteps on the ground the projections will trigger, showing a fish splashing on the wall. A sound of rippling water can be heard coming from the wall and fish scales can be touched allowing users to get up close and personal to the animal."
+      "file": "3.png",
+      "caption": "The user is transported by the 'chocolate river', into the inventing room. This is the space where the user will invent their own sweet, logo and packaging."
     },
     {
       "type": "image",
       "format": "h",
-      "file": "3.jpg",
-      "caption": "The next set of footprints light up as the projection finishes and goes dark. The user is now following the glowing footprints to the next room."
+      "file": "4.png",
+      "caption": "Once the user steps into the ring of their choice, the design process is initiated."
+    },
+    {
+      "type": "video-yt",
+      "file": "bRNh4VOioHk",
+      "caption": "Using the interactive walls, the user begins their design."
     },
     {
       "type": "image",
       "format": "h",
-      "file": "4.jpg",
-      "caption": "While following the footprints the user walks besides an interactive bush landscape, which has surprise interactions built in. Here a child is touching the fireflies that are floating around. They scatter and fly away from them."
+      "file": "5.png",
+      "caption": "Once the user completes their design process, their authenticity card prints from a slit in the wall. They then make their way to the production room."
+    },
+    {
+      "type": "image",
+      "format": "h",
+      "file": "6.png",
+      "caption": "The production room is a corridor of 3D printers with 2 sections, the packaging and the sweet production. Here the user can watch their invention come to life."
     },
     {
       "type": "image",
       "format": "f",
-      "file": "5.jpg",
-      "caption": "The user reaches the next scene where an owl appears, it starts hooting and flapping its wings. It is glows brightly and has many enjoyable colours and details for children to look at."
+      "file": "7.png",
+      "caption": "By scanning their custom barcode located on their authenticity card, the user can begin the production of their edible sweet and packaging."
     },
     {
       "type": "image",
       "format": "h",
-      "file": "6.jpg",
-      "caption": "Because they were intrigued the user goes up to the wall and starts interacting with the textures there. They can feel the owl feathers."
+      "file": "8.png",
+      "caption": "The user leaves the experience with their own edible sweet invention, logo and packaging. These take-aways are a reminder of the individuals' creativity and are a means of encouraging innovation beyond the walls of the museum."
     },
     {
       "type": "image",
       "format": "h",
-      "file": "7.jpg",
-      "caption": "Users enter the interactive floor in the last section and will be guided by the bear on the display."
-    },
-    {
-      "type": "image",
-      "format": "f",
-      "file": "8.jpg",
-      "caption": "The user follows the footsteps to the final room, they find Oswald Bear sitting on the bench safe and sound as the sun rises above him creating a sense of closure to the night ending. Morning birds can be heard, and the user can touch the bear and rest on the bench if desired."
+      "file": "9.png",
+      "caption": "The immersive design aims to not only bring the narrative to life but also create a memorable and fulfilling experience for the user, by compelling them to use their imagination."
     }
   ]
 }
