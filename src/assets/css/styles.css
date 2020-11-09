@@ -1,11 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500&display=swap');
 
+html, body {
+  height: 100%;
+}
 body {
   font-family: 'DM Sans', sans-serif;;
   font-size: 1.2rem;
   color: #181818;
-  background-color: #FFFFFF;
-  
+  background-color: #FFFFFF;  
 }
 
 main {
@@ -126,6 +128,9 @@ main {
 a {
   outline: 0;
 }
+.image-container {
+  margin-bottom: 53.6%;
+}
 
 .placeholder {
   padding-bottom: 53.6%;
@@ -137,6 +142,11 @@ a {
 .loaded-image {
   opacity: 1;
   transition: opacity 400ms linear 800ms;  
+  
+}
+
+.image-container > .loaded-image {
+  margin-bottom: -53.6%;
 }
 
 
