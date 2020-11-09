@@ -1,9 +1,8 @@
 import React, { useEffect, useState, Fragment } from 'react'
-import { getBook, getNavBooks } from '../store/selectors'
+import { getBook } from '../store/selectors'
 import { store } from '../store'
 import Loader from './loader'
 import Nav from './nav'
-import { Link } from 'react-router-dom'
 
 export default function BookPage (props) {
   const [book, setBook] = useState(null)
@@ -13,11 +12,16 @@ export default function BookPage (props) {
   const [loaded, setloaded] = useState(false)
   const [loadedImages, setloadedImages] = useState(0)
   // let count = 0
-
-  const onLoad = () => {
+  
+  const onLoad = ({target:img}) => {
     // count++
+    // console.log(img.classList)
+    img.classList.add('loaded-image')
     setloadedImages(loadedImages + 1)
     if (loadedImages + 1 === book.content.length) {
+      setloaded(true)
+    }
+    if (loadedImages > 0) {
       setloaded(true)
     }
   }
@@ -85,9 +89,12 @@ export default function BookPage (props) {
             } else {
               let width = 'w-100'
               if (item.format === 'h') width = 'w-100 w-50-l'
+              const src = require(`../books${book.permalink}/${item.file}`).default
               return (
-                <div className={`mv4 justify-between pl0 pl4-l ${width}`} key={key}>
-                  <img className='w-100' onLoad={onLoad} src={require(`../books${book.permalink}/${item.file}`).default} />
+                <div className={`mv4 justify-between pl0 pl4-l ${width} relative`} key={key}>
+                  <div className='absolute placeholder' style={{backgroundColor: book.color}}/>
+                  <img className='w-100 o-0 lazy-image' onLoad={onLoad} src={src} />
+                  
                   {item.caption && <div className='mt3 mh4 mh0-l f5 lh-copy'>{item.caption}</div>}
                 </div>
               )
