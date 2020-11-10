@@ -13,12 +13,6 @@ export default function BookPage (props) {
   const [loaded, setloaded] = useState(false)
   const [loadedImages, setloadedImages] = useState(0)
   // let count = 0
-  
-  const onLoad = () => {
-    if (loadedImages > 0) {
-      setloaded(true)
-    }
-  }
 
   const fetchBook = () => {
     const data = getBook(store.getState(), `/${props.match.params.id}`)
@@ -54,15 +48,21 @@ export default function BookPage (props) {
               <span>Interactive experience by <a className='link' target='_blank' style={color} href={book.interactive[1]}>{book.interactive[0]}</a></span>
             </div>
           </div>
-          <img className='w-100 mt2' onLoad={onLoad} src={require(`../books${book.permalink}/${book.header}`).default} />
+          <div className='w-100 relative'>
+            <div className='absolute header placeholder' style={{backgroundColor: book.color}}/>
+            <ImageLoad class='w-100 header image-container' color={book.color} src={require(`../books${book.permalink}/${book.header}`).default} />
+          </div>
+          
           
         </div>
         <div className='content w-100 flex flex-wrap mv4 pr0 pr4-l'>
           {book.content.map((item, key) => {
             if (item.type === 'video'){
               return (
-                <div className='w-100 pl0 pl4-l'  key={key}>
-                  <video controls className='w-100 mv4' src={require(`../books${book.permalink}/${item.file}`).default}/>
+                <div className='w-100 ml0 ml4-l mv4' key={key}>
+                  <div className='video-container'>
+                  <iframe className='video' title="vimeo-player" src={`https://player.vimeo.com/video/${item.file}`} width="640" height="361" frameborder="0" allowfullscreen></iframe>
+                </div>
                 </div>
               )
             } else if (item.type === 'video-yt'){
