@@ -129,7 +129,7 @@ a {
   outline: 0;
 }
 .image-container {
-  margin-bottom: 53.6%;
+  padding-bottom: 53.6%;
 }
 
 .placeholder {
@@ -141,18 +141,14 @@ a {
 
 .loaded-image {
   opacity: 1;
-  transition: opacity 400ms linear 800ms;  
-  
+  transition: opacity 400ms linear 800ms; 
+  width: 100%;   
 }
 
-.image-container > .loaded-image {
-  margin-bottom: -53.6%;
-  transition: margin-bottom 0s 1200ms;
-}
 
 
 @media screen and (min-width: 60em) {
-  .placeholder {
+  .placeholder, .loaded-image {
     width: calc(100% - 2rem);
   }
 }

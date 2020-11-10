@@ -95,7 +95,7 @@ export default function BookPage (props) {
                 <div className={`mv4 justify-between pl0 pl4-l ${width} relative`} key={key}>
                   <div className='w-100 relative image-container'>
                     <div className='absolute placeholder' style={{backgroundColor: book.color}}/>
-                    <img className='w-100 o-0 lazy-image' onLoad={onLoad} src={src} />
+                    <img className='absolute o-0 lazy-image' onLoad={onLoad} src={src} />
                   </div>
                   {item.caption && <div className='mt3 mh4 mh0-l f5 lh-copy'>{item.caption}</div>}
                 </div>
