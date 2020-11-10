@@ -39,8 +39,8 @@ main {
 }
 
 .icon {
-  width: 170px;
-  height: 100px;
+  width: 240px;
+  height: 150px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -152,3 +152,17 @@ a {
   padding-bottom: 31% !important;
 }
 
+.links:hover {
+  text-decoration: underline;
+}
+
+.icon-image {
+  padding-bottom: 100%;
+}
+
+@media screen and (min-width: 60em) {
+
+  /* .home-copy {
+    max-height: 350px;
+  } */
+}
