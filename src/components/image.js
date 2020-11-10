@@ -5,8 +5,13 @@ export default function ImageLoad (props) {
   const [loaded, setLoaded] = useState(null)
   
   const onLoad = ({target: img}) => {
-    setSrc(img.src)
-    setLoaded('loaded-image')
+    const interval = setInterval(() => {
+      if (img.naturalWidth > 0 && img.naturalHeight > 0) {
+        clearInterval(interval)
+        setSrc(img.src)
+        setLoaded('loaded-image')
+      }
+    }, 100)
   }
 
   return (
