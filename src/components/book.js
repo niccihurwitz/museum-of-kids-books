@@ -90,7 +90,7 @@ export default function BookPage (props) {
                 <div className={`mv4 justify-between pl0 pl4-l ${width} relative`} key={key}>
                   <div className='w-100 relative'>
                     <div className='absolute placeholder' style={{backgroundColor: book.color}}/>
-                    <ImageLoad class='image-container' src={src} />
+                    <ImageLoad class='image-container' color={book.color} src={src} />
                   </div>
                   {item.caption && <div className='mt3 mh4 mh0-l f5 lh-copy'>{item.caption}</div>}
                 </div>

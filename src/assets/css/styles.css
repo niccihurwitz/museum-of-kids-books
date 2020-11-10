@@ -144,7 +144,7 @@ a {
 
 .loaded-image {
   opacity: 1;
-  transition: opacity 400ms linear 1s; 
+  transition: all 400ms linear 1s; 
   width: 100%; 
 }
 
