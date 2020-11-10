@@ -1,26 +1,19 @@
-import React, { useEffect, useState, Fragment } from 'react'
+import React, { useEffect, useState } from 'react'
 
 export default function ImageLoad (props) {
   const [src, setSrc] = useState(null)
   const [loaded, setLoaded] = useState(null)
   
-  const getSrc = () => {
-  
-    const { src } = props
-
-    const imageLoader = new Image()
-    imageLoader.src = src
-
-    imageLoader.onload = () => {
-      setSrc(props.src)
-      setLoaded('loaded-image')
-    }
+  const onLoad = ({target: img}) => {
+    setSrc(img.src)
+    setLoaded('loaded-image')
   }
 
-  useEffect(() => {
-    getSrc()
-  },[])
+  return (
 
-  return (<div className={`${loaded} ${props.class}`} style={{ backgroundImage: `url(${src})` }} />)
+    <div className={`${loaded} ${props.class}`} style={{ backgroundImage: `url(${src})` }} >
+      <img className='dn' src={props.src} onLoad={onLoad}/>
+    </div>
+  )
 
 }

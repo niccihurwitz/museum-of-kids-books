@@ -129,6 +129,7 @@ a {
   outline: 0;
 }
 .image-container {
+  opacity: 0;
   padding-bottom: 56%;
   background-position: center;
   background-size: cover;
@@ -143,15 +144,7 @@ a {
 
 .loaded-image {
   opacity: 1;
-  transition: opacity 400ms linear 800ms; 
+  transition: opacity 400ms linear 1s; 
   width: 100%; 
-}
-
-
-
-@media screen and (min-width: 60em) {
-  .placeholder, .loaded-image {
-    width: calc(100% - 2rem);
-  }
 }
 

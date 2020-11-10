@@ -14,14 +14,7 @@ export default function BookPage (props) {
   const [loadedImages, setloadedImages] = useState(0)
   // let count = 0
   
-  const onLoad = ({target:img}) => {
-    // count++
-    // console.log(img.classList)
-    // img.classList.add('loaded-image')
-    // setloadedImages(loadedImages + 1)
-    // if (loadedImages + 1 === book.content.length) {
-    //   setloaded(true)
-    // }
+  const onLoad = () => {
     if (loadedImages > 0) {
       setloaded(true)
     }
@@ -92,24 +85,12 @@ export default function BookPage (props) {
               let width = 'w-100'
               if (item.format === 'h') width = 'w-100 w-50-l'
               const src = require(`../books${book.permalink}/${item.file}`).default
-              // const image = new Image()
-              // image.src = src
-              // let file
-              // image.onload = () => {
-              //   // img.classList.add('loaded-image')
-              //   // console.log(imageContainer)
-              //   // imageContainer.classList.add('loaded-image')
-              //   // imageContainer.props.className = imageContainer.props.className + ' loaded-image'
-              //   file = `url(${image.src})`
-                
-              // }
+
               return (
                 <div className={`mv4 justify-between pl0 pl4-l ${width} relative`} key={key}>
                   <div className='w-100 relative'>
                     <div className='absolute placeholder' style={{backgroundColor: book.color}}/>
-                    {/* <div className='image-container lazy-image' style={{backgroundImage: file}}/>
-                     */}
-                     <ImageLoad class='image-container o-0' src={src} />
+                    <ImageLoad class='image-container' src={src} />
                   </div>
                   {item.caption && <div className='mt3 mh4 mh0-l f5 lh-copy'>{item.caption}</div>}
                 </div>
