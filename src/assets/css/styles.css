@@ -130,6 +130,8 @@ a {
 }
 .image-container {
   padding-bottom: 58%;
+  background-position: center;
+  background-size: cover;
 }
 
 .placeholder {
@@ -142,7 +144,7 @@ a {
 .loaded-image {
   opacity: 1;
   transition: opacity 400ms linear 800ms; 
-  width: 100%;   
+  width: 100%; 
 }
 
 
