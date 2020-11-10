@@ -61,7 +61,7 @@ export default function BookPage (props) {
               return (
                 <div className='w-100 ml0 ml4-l mv4' key={key}>
                   <div className='video-container'>
-                  <iframe className='video' title="vimeo-player" src={`https://player.vimeo.com/video/${item.file}`} width="640" height="361" frameborder="0" allowfullscreen></iframe>
+                  <iframe className='video' title="vimeo-player" src={`https://player.vimeo.com/video/${item.file}`} width="640" height="361" frameBorder="0" allowFullScreen></iframe>
                 </div>
                 </div>
               )
@@ -75,7 +75,6 @@ export default function BookPage (props) {
                     frameBorder="0" 
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope;"
                     allowFullScreen
-                    onLoad={onLoad}
                     ></iframe>
                   </div>
                   {item.caption && <div className='mt3 f5 lh-copy mh4 mh0-l'>{item.caption}</div>}
