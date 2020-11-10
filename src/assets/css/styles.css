@@ -129,13 +129,13 @@ a {
   outline: 0;
 }
 .image-container {
-  padding-bottom: 58%;
+  padding-bottom: 56%;
   background-position: center;
   background-size: cover;
 }
 
 .placeholder {
-  padding-bottom: 53.6%;
+  padding-bottom: 56%;
   top: 0px;
   width: 100%;
   z-index: -1;
