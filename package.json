@@ -1,7 +1,7 @@
 {
   "name": "museum-of-kids-books",
   "version": "1.0.0",
-  "description": "Museum of Kids Books",
+  "description": "The Immersive Museum of Children's Books",
   "homepage": "http://niccihurwitz.github.io/museum-of-kids-books/",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot --host 0.0.0.0",
