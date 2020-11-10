@@ -147,6 +147,7 @@ a {
 
 .image-container > .loaded-image {
   margin-bottom: -53.6%;
+  transition: margin-bottom 0s 1200ms;
 }
 
 
