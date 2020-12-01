@@ -43,7 +43,6 @@ const Application = (props) => {
           key={location.pathname}
           timeout={400}
           classNames='page'
-          unmountOnExit
         >
           <Switch location={location}>
             <Route exact path='/' render={(props) => <HomePage {...props} />} />
