@@ -33,19 +33,26 @@ export default function BookPage (props) {
       <Loader loaded={loaded} />
     {bookLoaded &&
       <div className='w-100 page'>
-        <div className='w-50 flex flex-column items-center justify-center book-header center pv6 ph2 ph3-l'>
+        <div className='w-80 w-50-l flex flex-column items-center justify-center book-header center pv4 pv6-l ph2 ph3-l'>
           {/* <img className='mw5' src={require(`../books${book.permalink}/icon.png`).default} /> */}
           <div className='icon h-100' style={{backgroundImage: `url(${require(`../books${book.permalink}/icon.png`).default})`}} />
-          <h1 className='f4 f3-l center tc' style={{color: book.color}}>{book.title}</h1>
-          <span className='f3-l lh-title normal center tc mt3' >{book.description}</span>
+          <h1 className='f4 title-l center tc' style={{color: book.color}}>{book.title}</h1>
+          <span className='lh-title normal center tc mt3' >{book.description}</span>
         </div>
         <div className='w-100 flex flex-column justify-center items-center mt3 ph2 ph3-l'>
-          
+        <div className='w-100 flex-l flex-column flex-row-l justify-between-l f5 ph0-l mt3 dn mb3'>
+            <div className='w-100'>
+              <span>Book by <a className='link links' target='_blank' style={color} href={book.author[1]}>{book.author[0]}</a></span>
+            </div>
+            <div className='w-100 w-50-l  tr-l'>
+              <span>Interactive experience by <a className='link links' target='_blank' style={color} href={book.interactive[1]}>{book.interactive[0]}</a></span>
+            </div>
+          </div>
           <div className='w-100 relative'>
             <div className='absolute header placeholder' style={{backgroundColor: book.color}}/>
             <ImageLoad class='w-100 header image-container' color={book.color} src={require(`../books${book.permalink}/${book.header}`).default} />
           </div>
-          <div className='w-100 flex flex-column flex-row-l justify-between-l f5 ph0-l mt3'>
+          <div className='w-100 flex flex-column flex-row-l justify-between-l f5 ph0-l mt3 dn-l'>
             <div className='w-100 w-50-l'>
               <span>Book by <a className='link links' target='_blank' style={color} href={book.author[1]}>{book.author[0]}</a></span>
             </div>

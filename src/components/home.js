@@ -30,9 +30,9 @@ export default function HomePage (props) {
   return (
     <div className='page ma3 mb6'>
       <div className='w-100 page'>
-        <div className='title mw6 center'>
+        <div className='title center'>
           <Link to={'/'} className='link p-black'>
-            <h2 className='mt5 mb5 mb4-l tc'>The Immersive Museum<br/>of Children's Books</h2>
+            <h2 className='mt5 mb5 mb4-l tc'>The Immersive Museum of Children's Books</h2>
           </Link>
         </div>
       </div>
