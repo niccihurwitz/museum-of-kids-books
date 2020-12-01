@@ -13,5 +13,5 @@ import passItOn from './pass-it-on/index.json'
 import crowBoy from './crow-boy/index.json'
 import paddington from './paddington/index.json'
 
-const books = [oswaldBearsAdventure, theLorax, goingOnABearHunt, charlieChocolateFactory, iWantMyHatBack, timeForABath, bearHasAStoryToTell, rulesOfSummer, lionWitchWardrobe, redTree, coco, passItOn, crowBoy, paddington]
+const books = [lionWitchWardrobe, theLorax, goingOnABearHunt, oswaldBearsAdventure, iWantMyHatBack, coco, charlieChocolateFactory, timeForABath, rulesOfSummer, paddington, redTree, bearHasAStoryToTell, crowBoy, passItOn]
 export default books

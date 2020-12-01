@@ -14,8 +14,9 @@ export default function ImageLoad (props) {
     }, 100)
   }
 
+  let style = { backgroundImage: `url(${src})`, backgroundColor: props.color, ...props.style }
   return (
-    <div className={`${loaded} ${props.class}`} style={{ backgroundImage: `url(${src})`, backgroundColor: props.color }} >
+    <div className={`${loaded} ${props.class}`} style={style} >
       <img className='dn' src={props.src} onLoad={onLoad}/>
     </div>
   )
