@@ -28,8 +28,8 @@ export default function HomePage (props) {
   },[])
 
   return (
-    <div className='page ma3 mb6'>
-      <div className='w-100 page'>
+    <div className='page pa3 pb6 pt4'>
+      <div className='w-100'>
         <div className='title center'>
           <Link to={'/'} className='link p-black'>
             <h2 className='mt5 mb5 mb4-l tc'>The Immersive Museum of Children's Books</h2>
@@ -71,16 +71,15 @@ export default function HomePage (props) {
               margin = '0px'
             }
           }
-          console.log(itemWidth)
           
 
           return(
             <Link className='w-50 w-25-l pointer link p-black pointer book-icon' style={{top: margin, marginLeft: leftMargin}}to={`books${book.permalink}`} key={key} alt={ book.title } title={ book.title } >
               <div className='w-100 relative'>
                 <div className='absolute icon-image placeholder' style={{backgroundColor: book.color}}/>
-                <ImageLoad class='image-container icon-image' color={book.color} src={require(`../books${book.permalink}/home-icon.jpg`).default} />
+                <ImageLoad class='image-container icon-image' color={book.color} src={require(`../books${book.permalink}/home-icon.png`).default} />
                 <div className='absolute icon-title flex items-center w-100 h-100'>
-                  <ImageLoad class='w-100 h-100 hover-image' style={{backgroundSize: `${itemWidth * 1.2}px`}} color={book.color} src={require(`../books${book.permalink}/icon.png`).default} />
+                  <ImageLoad class='w-100 h-100 hover-image' style={{backgroundSize: `${itemWidth * 1.1}px`}} color={book.color} src={require(`../books${book.permalink}/hover-icon.png`).default} />
                 {/* <h4 className='mh4 center tc'>{book.title}</h4> */}
               </div> 
               </div>

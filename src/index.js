@@ -36,21 +36,20 @@ const Application = (props) => {
 
   return (
     <ScrollToTop location={location}>
-    <Default>
-      
-      <TransitionGroup component={null}>
-        <CSSTransition
-          key={location.pathname}
-          timeout={400}
-          classNames='page'
-        >
-          <Switch location={location}>
-            <Route exact path='/' render={(props) => <HomePage {...props} />} />
-            <Route exact path='/books/:id' render={(props) => <BookPage {...props} />} />
-          </Switch>
-        </CSSTransition>
-      </TransitionGroup>
-    </Default>
+      <Default>
+        <TransitionGroup component={null}>
+          <CSSTransition
+            key={location.pathname}
+            timeout={400}
+            classNames='page'
+          >
+            <Switch location={location}>
+              <Route exact path='/' render={(props) => <HomePage {...props} />} />
+              <Route exact path='/books/:id' render={(props) => <BookPage {...props} />} />
+            </Switch>
+          </CSSTransition>
+        </TransitionGroup>
+      </Default>
     </ScrollToTop>
 
   )
