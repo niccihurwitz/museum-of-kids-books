@@ -79,7 +79,7 @@ export default function HomePage (props) {
                 <div className='absolute icon-image placeholder' style={{backgroundColor: book.color}}/>
                 <ImageLoad class='image-container icon-image' color={book.color} src={require(`../books${book.permalink}/home-icon.png`).default} />
                 <div className='absolute icon-title flex items-center w-100 h-100'>
-                  <ImageLoad class='w-100 h-100 hover-image' style={{backgroundSize: `${itemWidth * 1.1}px`}} color={book.color} src={require(`../books${book.permalink}/hover-icon.png`).default} />
+                  <ImageLoad class='w-100 h-100 hover-image' style={{backgroundSize: `${itemWidth}px`}} color={book.color} src={require(`../books${book.permalink}/hover-icon.png`).default} />
                 {/* <h4 className='mh4 center tc'>{book.title}</h4> */}
               </div> 
               </div>
