@@ -28,6 +28,7 @@ h2 {
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 700;
 }
+
 .p-black {
   color: #181818;
 }
@@ -187,8 +188,8 @@ h2 {
 }
 
 .description {
-  font-size: 1.7rem;
-  line-height: 2rem;
+  font-size: 1.25rem;
+  line-height: 1.4rem;
 }
 
 a, a:active, a:focus, .link, .link:active, .link:focus {
@@ -208,6 +209,10 @@ a, a:active, a:focus, .link, .link:active, .link:focus {
   }
   h2 {
     font-size: 2rem;
+  }
+  .description-l {
+    font-size: 1.7rem;
+    line-height: 2rem;
   }
   
 }

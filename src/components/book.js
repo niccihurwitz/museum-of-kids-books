@@ -34,10 +34,9 @@ export default function BookPage (props) {
     {bookLoaded &&
       <div className='w-100 page'>
         <div className='w-80 w-60-l mw8-l flex flex-column items-center justify-center book-header center pv4 pv6-l ph2 ph3-l'>
-          {/* <img className='mw5' src={require(`../books${book.permalink}/icon.png`).default} /> */}
           <div className='icon h-100' style={{backgroundImage: `url(${require(`../books${book.permalink}/icon.png`).default})`}} />
           <h1 className='f4 title-l center tc' style={{color: book.color}}>{book.title}</h1>
-          <span className='lh-title normal center tc mt3 description' >{book.description}</span>
+          <span className='lh-title normal center tc mt3 description description-l' >{book.description}</span>
         </div>
         <div className='w-100 flex flex-column justify-center items-center mt3 ph2 ph3-l'>
         <div className='w-100 flex-l flex-column flex-row-l justify-between-l f5 ph0-l mt3 dn mb3'>
