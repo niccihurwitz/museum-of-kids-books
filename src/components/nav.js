@@ -36,7 +36,7 @@ if (loaded) {
             </div> 
           </Link>
           <Link to={'/'} className='link p-black w-40 w-third-ns'>
-            <h2 className='tc f5 f4-l'>The Immersive Museum of Children's Books</h2>
+            <h2 className='tc f4 f4-l'>The Immersive Museum of Children's Books</h2>
           </Link>
           <Link className='pointer link p-black pointer nav-item w-third' to={`/books${next.permalink}`} alt={ next.title } title={ next.title } >
             <div className='flex flex-column flex-row-ns items-center fr-ns center'>

@@ -188,8 +188,8 @@ h2 {
 }
 
 .description {
-  font-size: 1.25rem;
-  line-height: 1.4rem;
+  font-size: 1.7rem;
+  line-height: 2rem;
 }
 
 a, a:active, a:focus, .link, .link:active, .link:focus {
@@ -209,10 +209,6 @@ a, a:active, a:focus, .link, .link:active, .link:focus {
   }
   h2 {
     font-size: 2rem;
-  }
-  .description-l {
-    font-size: 1.7rem;
-    line-height: 2rem;
   }
   
 }
