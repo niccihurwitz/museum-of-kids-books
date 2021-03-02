@@ -197,10 +197,14 @@ a, a:active, a:focus, .link, .link:active, .link:focus {
 }
 
 
-@media screen and (max-width: 60em) and (min-width: 30em) {
+@media screen and (max-width: 40em) and (min-width: 20em) {
   /* .nav-item {
     min-width: 250px;
   } */
+
+  h2 {
+    font-size: 0.9rem;
+  }
 }
 
 @media screen and (min-width: 60em) {
@@ -208,7 +212,7 @@ a, a:active, a:focus, .link, .link:active, .link:focus {
     font-size: 1.4rem;
   }
   h2 {
-    font-size: 2rem;
+    font-size: 2.7rem;
   }
   
 }

@@ -32,7 +32,8 @@ export default function HomePage (props) {
       <div className='w-100'>
         <div className='title center'>
           <Link to={'/'} className='link p-black'>
-            <h2 className='mt5 mb5 mb4-l tc'>The Immersive Museum of Children's Books</h2>
+            <h2 className='mt5 mb5 mb4-l tc dn db-ns'>The Immersive Museum of Children's Books</h2>
+            <h2 className='mt5 mb5 mb4-l tc dn-ns'>The Immersive Museum <br />of Children's Books</h2>
           </Link>
         </div>
       </div>
@@ -93,11 +94,11 @@ export default function HomePage (props) {
       <div className='w-100 flex flex-column flex-row-l p-black f5 pt4 pl4-l home-copy'>
         <div className='w-100 w-50-l mw6 pr5-l'>
           <p><span className='b'>'Design an interactive experience around your favourite children's book.'</span> — This was the brief for Visual Communication students at the University of Technology, Sydney.</p>
-          <p>With storytelling at the core, students developed skills in conceptual development, user experience and interface design. In 6 weeks they created an interactive physical-digital museum experience. Now the projects live here for all to enjoy :-)</p>
+          <p>Over 6 weeks the students honed skills in conceptual development, UX, UI and storytelling to create a 'room' in our museum.</p>
         </div>
         <div className='w-100 w-50-l mw6 pr5-l'>
-          <p>A big thanks to course coordinator, Nicky Hardcastle!<br/>And to Ros Skinner for coding this website.</p>
-          <p >Experimental Interactive Design course & site design by <a href='https://niccihurwitz.com/' target='_blank' className='link' style={{color: '#FD8197'}}>Nicci Hurwitz.</a></p>
+          <p>A big thanks to course director Nicky Hardcastle <br/>and to Ros Skinner for coding this site.</p>
+          <p>Experimental Interactive Design course and site by <a href='https://niccihurwitz.com/' target='_blank' className='link' style={{color: '#FD8197'}}>Nicci Hurwitz.</a></p>
         </div>
       </div>
     </div>
