@@ -4,5 +4,5 @@
 
 1. ```npm i```
 2. ```npm start```
-3. ```npm build```
-4. ```npm deploy```
+3. ```npm run build```
+4. ```npm run deploy```
